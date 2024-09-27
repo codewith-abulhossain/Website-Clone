@@ -1,0 +1,774 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+:root {
+  --primary-background: #14151c;
+  --text-color: #fff;
+  --primary-color: #e0f014;
+  --border-color: #272933;
+  --paragraph-color: #c9ccd9;
+}
+body {
+  font-family: "Instrument Sans", sans-serif;
+  background-color: var(--primary-background);
+  color: var(--text-color);
+  margin: auto;
+}
+.navbar-brand {
+  font-size: 24px;
+  font-weight: 700;
+}
+.navbar {
+  border-bottom: 1px solid var(--border-color);
+  padding: 24px 0px;
+  margin-top: 28px;
+}
+.btn {
+  border-radius: 0%;
+  border: 1px solid var(--text-color);
+  line-height: 17px;
+  font-size: 14px;
+  background-color: transparent;
+  color: #fff;
+}
+
+.nav-link {
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--text-color);
+}
+.nav-link:hover {
+  color: var(--primary-color);
+}
+.top-bar {
+  background-color: var(--primary-color);
+  cursor: pointer;
+}
+.top-bar:hover {
+  background-color: var(--text-color);
+  transition: background-color 0.5 ease;
+  color: var(--text-color);
+}
+
+.top-bar p {
+  font-size: 14px;
+  color: var(--primary-background);
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.navbar-toggler {
+  color: var(--text-color) !important;
+  background-color: var(--primary-color);
+}
+
+/* hero section start */
+
+.hero-content {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 50px;
+}
+.hero-upertext {
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--text-color);
+  border-bottom: 2px solid var(--text-color);
+  display: inline-block;
+}
+.hero-content h1 {
+  font-size: 60px;
+  line-height: 66px;
+  color: var(--text-color);
+  font-weight: 500;
+  margin: auto;
+}
+
+.hero-content p {
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--paragraph-color);
+  font-weight: 400;
+  max-width: 600px;
+  margin: 24px auto;
+}
+.hero-btn {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+  color: var(--border-color);
+  background-color: var(--primary-color);
+  padding: 14px 20px;
+}
+.hero-btn:hover {
+  background-color: var(--paragraph-color);
+}
+.hero-img-container {
+  max-width: 500px;
+  margin: auto;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.hero-img img {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  border: 1px solid var(--primary-color);
+}
+.hero-img-tex {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  margin-top: 15px;
+}
+.pra1 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.pra1 span {
+  color: var(--primary-color);
+}
+
+.pra2 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+.hero-video p {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+}
+.video-container {
+  position: relative;
+}
+.video-btn {
+  position: absolute;
+  width: 1114px;
+  height: 50px;
+  background-color: #e0f014;
+  bottom: 0%;
+  left: 0%;
+  color: var(--primary-background);
+  font-size: 20px;
+  font-family: 400;
+  text-align: center;
+}
+
+.video-btn:hover {
+  background-color: var(--paragraph-color);
+}
+.hero-box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-top: 35px;
+}
+.hero-box > .box {
+  background-color: var(--border-color);
+  text-align: center;
+  padding: 50px;
+}
+
+.box h4 {
+  font-size: 54px;
+  line-height: 65px;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+
+.box p {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: var(--paragraph-color);
+}
+/* Hero style end */
+/* services section start  */
+.ser-sec {
+  margin-top: 100px;
+}
+
+.services-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 35px;
+}
+.Services-content {
+  padding-top: 170px;
+}
+.Services-content h3 {
+  font-size: 26px;
+  line-height: 19px;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.Services-content h2 {
+  margin-top: 26px;
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+.Services-content p {
+  margin-top: 25px;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+}
+.Services-content-btn button {
+  border: none;
+  padding: 18px 40px;
+  color: var(--border-color);
+  font-size: 18px;
+  font-weight: 500;
+  background-color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.Services-content-btn button:hover {
+  background-color: var(--paragraph-color);
+}
+
+.Services-content-btn .time {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.Services-Box > .Box {
+  width: 100%;
+  background-color: var(--border-color);
+  padding: 35px 20px;
+  margin-bottom: 15px;
+}
+
+.Box svg {
+  color: var(--primary-color);
+  margin-bottom: 15px;
+}
+
+.Box h3 {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 500;
+}
+
+.Box p {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  color: var(--paragraph-color);
+  margin-top: 25px;
+}
+/* services section end */
+/* swipe sidler style start */
+.work {
+  max-width: 1140px;
+  margin: auto;
+  position: relative;
+}
+.work-content p {
+  color: var(--primary-color);
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 600;
+  margin-top: 100px;
+}
+
+.work-content h2 {
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+.swiper {
+  max-width: 1040px;
+  height: 600px;
+  margin: auto;
+}
+
+.swiper-slide {
+  height: 200px;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px !important;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-button-prev-unique {
+  background: transparent;
+  border: none;
+  color: var(--primary-color);
+  position: absolute;
+  top: 50%;
+  left: -1%;
+}
+.swiper-button-next-unique {
+  background: transparent;
+  border: none;
+  color: var(--primary-color);
+  position: absolute;
+  top: 50%;
+  right: -1%;
+}
+/* swipe sidler style end */
+
+/*  Social media Growth section start */
+.growth {
+  margin-top: 150px;
+}
+.Streamer-TikTok-Growth,
+.YouTube-Channel-Growth,
+.Instagram-Growth {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: space-between;
+}
+.Growth-img {
+  width: 45%;
+  /* height: 300px; */
+  background-color: var(--primary-color);
+  margin-bottom: 20px;
+  padding: 50px 70px;
+}
+.Growth-img img {
+  width: 100%;
+  height: 100%;
+}
+.Growth-text {
+  width: 55%;
+  background-color: var(--border-color);
+  margin-bottom: 20px;
+  padding: 50px 70px;
+}
+
+.Growth-div P {
+  width: 45%;
+  padding: 5px 10px;
+  text-align: center;
+  border: 1px solid var(--primary-color);
+  border-radius: 15%;
+}
+
+.Growth-text h2 {
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 500;
+  color: var(--text-color);
+  margin-top: 35px;
+  margin-bottom: 40px;
+}
+
+.Growth-text a {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 600;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.Growth-text a:hover {
+  color: var(--paragraph-color);
+  text-decoration: underline;
+}
+
+.viewer h5 {
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.viewer p {
+  font-size: 16px;
+  line-height: 24px;
+  line-height: 400;
+  color: var(--paragraph-color);
+}
+/*  Social media Growth section end */
+
+/* img scrolling animated section start */
+.scrolling {
+  margin-top: 80px;
+}
+.scrolling-img {
+  overflow: hidden;
+}
+.animated {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+}
+.animated-box {
+  width: 100%;
+  height: 250px;
+  background-color: var(--primary-color);
+  margin-bottom: 20px;
+  padding: 30px;
+}
+.animated img {
+  width: 100%;
+}
+/* img scrolling animated section end */
+
+/* Responsive media Queries */
+
+@media (max-width: 400px) {
+  /* hero section  */
+  .hero-content h1 {
+    font-size: 40px;
+    line-height: 46px;
+    color: var(--text-color);
+    font-weight: 400;
+    margin: auto;
+  }
+
+  .hero-content p {
+    font-size: 15px;
+    line-height: 22px;
+    color: var(--paragraph-color);
+    font-weight: 300;
+  }
+  .hero-btn {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: var(--border-color);
+    background-color: var(--primary-color);
+    padding: 11px 16px;
+  }
+  .video-btn {
+    width: 400px;
+    text-align: center;
+  }
+  .hero-box {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2px;
+    margin-top: 25px;
+  }
+  .box h4 {
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 400;
+    color: var(--primary-color);
+  }
+
+  .box p {
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 500;
+    color: var(--paragraph-color);
+  }
+
+  /* hero style end */
+
+  /* services section start */
+  .ser-sec {
+    text-align: center;
+  }
+  .time {
+    display: flex;
+    justify-content: center;
+  }
+  .services-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .Services-content {
+    padding-top: 0px;
+  }
+  .Services-content h3 {
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 400;
+    color: var(--primary-color);
+  }
+
+  .Services-content h2 {
+    margin-top: 20px;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 300;
+    color: var(--text-color);
+  }
+
+  .Services-content p {
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 300;
+  }
+  .Services-content-btn button {
+    border: none;
+    padding: 12px 30px;
+    color: var(--border-color);
+    font-size: 18px;
+    font-weight: 400;
+    background-color: var(--primary-color);
+    margin-bottom: 16px;
+  }
+  .Services-Box > .Box {
+    width: 100%;
+    background-color: var(--border-color);
+    padding: 20px 18px;
+    margin-bottom: 12px;
+  }
+
+  .Box svg {
+    color: var(--primary-color);
+    margin-bottom: 12px;
+  }
+
+  .Box h3 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+  }
+
+  .Box p {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 300;
+    color: var(--paragraph-color);
+    margin-top: 15px;
+  }
+
+  /* services section end */
+
+  /* social media growth */
+  .Streamer-TikTok-Growth,
+  .YouTube-Channel-Growth,
+  .Instagram-Growth {
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+  }
+  .Growth-img {
+    width: 45%;
+    /* height: 300px; */
+    background-color: var(--primary-color);
+    margin-bottom: 5px;
+  }
+  .Growth-img img {
+    width: 100%;
+    height: 100%;
+  }
+  .Growth-text {
+    width: 55%;
+    background-color: var(--border-color);
+    margin-bottom: 10px;
+  }
+
+  .Growth-div P {
+    padding: 2px 5px;
+    text-align: center;
+    border: 1px solid var(--primary-color);
+    border-radius: 10%;
+  }
+
+  .Growth-text h2 {
+    font-size: 6px;
+    color: var(--text-color);
+    margin-top: 2px;
+    margin-bottom: 3px;
+  }
+
+  .Growth-text a {
+    font-size: 8px;
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+  /* social media growth */
+}
+@media (max-width: 768px) {
+  /* hero section  */
+  .hero-content h1 {
+    font-size: 50px;
+    line-height: 56px;
+    color: var(--text-color);
+    font-weight: 400;
+    margin: auto;
+  }
+
+  .hero-content p {
+    font-size: 17px;
+    line-height: 25px;
+    color: var(--paragraph-color);
+    font-weight: 300;
+  }
+  .hero-btn {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+    color: var(--border-color);
+    background-color: var(--primary-color);
+    padding: 11px 16px;
+  }
+  .video-btn {
+    width: 768px;
+    text-align: center;
+  }
+  .hero-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 35px;
+  }
+
+  /* services section start */
+  .ser-sec {
+    text-align: center;
+  }
+  .time {
+    display: flex;
+    justify-content: center;
+  }
+  .services-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Services-content {
+    padding-top: 0px;
+  }
+  .Services-content h3 {
+    font-size: 22px;
+    line-height: 25px;
+    font-weight: 500;
+    color: var(--primary-color);
+  }
+
+  .Services-content h2 {
+    margin-top: 20px;
+    font-size: 30px;
+    line-height: 33px;
+    font-weight: 500;
+    color: var(--text-color);
+  }
+
+  .Services-content p {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+  }
+  .Services-content-btn button {
+    border: none;
+    padding: 16px 35px;
+    color: var(--border-color);
+    font-size: 18px;
+    font-weight: 500;
+    background-color: var(--primary-color);
+    margin-bottom: 20px;
+  }
+  .Services-Box > .Box {
+    width: 100%;
+    background-color: var(--border-color);
+    padding: 30px 20px;
+    margin-bottom: 13px;
+  }
+
+  .Box svg {
+    color: var(--primary-color);
+    margin-bottom: 13px;
+  }
+
+  .Box h3 {
+    font-size: 21px;
+    line-height: 31px;
+    font-weight: 500;
+  }
+
+  .Box p {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    color: var(--paragraph-color);
+    margin-top: 22px;
+  }
+  /* services section end */
+  /* social media growth */
+  .Streamer-TikTok-Growth,
+  .YouTube-Channel-Growth,
+  .Instagram-Growth {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+  }
+  .Growth-img {
+    width: 45%;
+    /* height: 300px; */
+    background-color: var(--primary-color);
+    margin-bottom: 16px;
+    padding: 40px 50px;
+  }
+  .Growth-img img {
+    width: 100%;
+    height: 100%;
+  }
+  .Growth-text {
+    width: 55%;
+    background-color: var(--border-color);
+    margin-bottom: 16px;
+    padding: 40px 50px;
+  }
+
+  .Growth-div P {
+    padding: 5px 10px;
+    text-align: center;
+    border: 1px solid var(--primary-color);
+    border-radius: 10%;
+  }
+
+  .Growth-text h2 {
+    font-size: 23px;
+    line-height: 30px;
+    font-weight: 300;
+    color: var(--text-color);
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
+
+  .Growth-text a {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+
+  .viewer h5 {
+    font-size: 26px;
+    line-height: 33px;
+    font-weight: 400;
+    color: var(--primary-color);
+  }
+
+  .viewer p {
+    font-size: 16px;
+    line-height: 20px;
+    line-height: 300;
+    color: var(--paragraph-color);
+  }
+  /* social media growth */
+}
